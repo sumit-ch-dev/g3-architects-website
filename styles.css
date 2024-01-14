@@ -255,9 +255,9 @@ main {
         gap: 20px;
     }
 
-    .ten-years-badge {
+    .experience-badge {
         position: static;
-        max-width: 300px;
+        max-width: 200px;
     }
 
 }
