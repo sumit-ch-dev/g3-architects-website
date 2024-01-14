@@ -119,8 +119,33 @@ main {
 
 .features {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 6rem;
+    gap: 100px;
+}
+
+.features .section-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.features .card {
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.experience-badge {
+    width: 340px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #fff;
+    padding: 40px;
+}
+
+.experience-badge h2 {
+    font-size: 4rem;
 }
 
 /* facts section */
